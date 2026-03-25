@@ -5,7 +5,7 @@ import FeaturedProperties from "@/components/FeaturedProperties";
 import HowItWorks from "@/components/HowItWorks";
 import OwnerCTA from "@/components/OwnerCTA";
 import Footer from "@/components/Footer";
-import AdComponent from "@/components/Adcomponent";
+//import AdComponent from "@/components/Adcomponent";
 
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -33,7 +33,7 @@ const Index = () => {
       <HeroSection onSearch={handleSearch} />
       
       <div className="container py-4">
-        <AdComponent />
+        //<AdComponent />
       </div>
 
       {/* The scroll-mt-20 ensures the Navbar doesn't cover the heading */}
