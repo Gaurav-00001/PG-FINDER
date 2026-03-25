@@ -40,7 +40,7 @@ const HeroSection = ({ onSearch }: HeroSectionProps) => {
           >
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary/20 text-secondary text-sm font-medium mb-6">
               <Shield className="w-3.5 h-3.5" />
-              Verified PGs in Ghaziabad
+              Verified PGs for students.
             </span>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-primary-foreground leading-[1.1] mb-6">
@@ -52,7 +52,7 @@ const HeroSection = ({ onSearch }: HeroSectionProps) => {
             </h1>
 
             <p className="text-lg md:text-xl text-primary-foreground/70 mb-10 max-w-lg font-body">
-              Discover verified accommodations near ABES, AKGEC, and KIET. Safe, affordable, and hassle-free living for students.
+              Discover verified accommodations that are safe, affordable, and hassle-free living for students.
             </p>
           </motion.div>
 
