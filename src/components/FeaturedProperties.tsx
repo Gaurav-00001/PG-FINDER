@@ -7,9 +7,9 @@ import property2 from "@/assets/property-2.jpg";
 import property3 from "@/assets/property-3.jpg";
 
 const DEMO_PROPERTIES = [
-  { id: 'd1', image: property1, title: "Sunshine PG for Men", location: "Ghaziabad", price: 6500, rating: 4.6, occupancy: "Triple Sharing", amenities: ["WiFi", "AC"], gender: "male" as const },
-  { id: 'd2', image: property2, title: "GreenView Ladies PG", location: "Rajnagar Extension", price: 10000, rating: 4.8, occupancy: "Double Sharing", amenities: ["WiFi", "AC"], gender: "female" as const },
-  { id: 'd3', image: property3, title: "Urban Nest Co-Living", location: "Duhai", price: 12500, rating: 4.7, occupancy: "Single Room", amenities: ["WiFi", "Food"], gender: "unisex" as const },
+  //{ id: 'd1', image: property1, title: "Sunshine PG for Men", location: "Ghaziabad", price: 6500, rating: 4.6, occupancy: "Triple Sharing", amenities: ["WiFi", "AC"], gender: "male" as const },
+  //{ id: 'd2', image: property2, title: "GreenView Ladies PG", location: "Rajnagar Extension", price: 10000, rating: 4.8, occupancy: "Double Sharing", amenities: ["WiFi", "AC"], gender: "female" as const },
+  //{ id: 'd3', image: property3, title: "Urban Nest Co-Living", location: "Duhai", price: 12500, rating: 4.7, occupancy: "Single Room", amenities: ["WiFi", "Food"], gender: "unisex" as const },
 ];
 
 const FeaturedProperties = ({ searchTerm }: { searchTerm: string }) => {
